@@ -24,7 +24,6 @@ const llamadaAsincrona = async ()=>{
     console.log('Fin llamadaAsincrona');
 };
 
-
 const asignarEventos = ()=>{
     let elBoton = document.getElementById('btnAsync');
     elBoton.addEventListener('click', llamadaAsincrona);
